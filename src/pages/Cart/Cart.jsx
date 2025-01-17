@@ -78,7 +78,7 @@ const Cart = () => {
               <hr />
               <div className="cart-total-details">
                 <p>Delivery Fee</p>
-                <p>{getTotalCartAmount() == 0 ? "0" : "₹50"}</p>
+                <p>{getTotalCartAmount() == 0 ? "0" : "BDT50"}</p>
               </div>
               <hr />
               <div className="cart-total-details">
@@ -86,7 +86,7 @@ const Cart = () => {
                 <b>
                   {getTotalCartAmount() === 0
                     ? 0
-                    : "₹" + (getTotalCartAmount() + 50)}
+                    : "BDT" + (getTotalCartAmount() + 50)}
                 </b>
               </div>
             </div>
